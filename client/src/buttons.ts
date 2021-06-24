@@ -22,10 +22,10 @@ function removeAllButtons() {
 }
 
 function showButtons() {
-		createButtons([
-			['Reach Compile', 'reach.compile'],
-			['Reach Run', 'reach.run'],
-		]);
+	createButtons([
+		['Reach Compile', 'reach.compile'],
+		['Reach Run', 'reach.run'],
+	]);
 }
 
 export const initButtons = (context: ExtensionContext) => {
